@@ -1,0 +1,11 @@
+$ ssh-keygen -t rsa -b 4096 -C "rrk88@gmail.com"
+$ eval $(ssh-agent -s)
+$ ssh-add ~/.ssh/id_rsa
+$ clip < ~/.ssh/id_rsa.pub
+ 
+git init 
+git remote add origin url()
+git touch or git add 
+git commit -m "first commit"
+git clone 
+git push origin (master)(main)(dev)(qa)(pro)
